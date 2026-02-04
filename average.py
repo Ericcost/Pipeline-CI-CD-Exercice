@@ -1,4 +1,4 @@
-# mymath.py
+# average.py
 # def moyenne(liste):
 #     if not liste:
 #         return 0

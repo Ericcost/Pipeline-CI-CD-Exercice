@@ -26,7 +26,9 @@ jobs:
     - name: Run job.py
       run: python job.py
 
-    # 5️⃣ Lancer les tests
     - name: Run tests
-      run: pytest
+      run: |
+        export PYTHONPATH=$PWD
+        pytest -v
+
 
